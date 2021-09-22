@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = 'stylesheet' href = 'style.css'/>
+        <title>Hangman</title>
+        
+    </head>
+    <body>
+        <header>
+            <h1 class = 'title'>Hangman Game!</h1>
+        </header>
+        <main>
+            <div class ='hangman'>
+                <div ><span class = 'part1'>●</span></div>
+                <div class = 'body'>
+                    <span class = 'part2'>-</span>
+                    <span class = 'part3'>|</span>
+                    <span class = 'part4'>-</span>
+                </div>
+                <div class = 'legs'>
+                    <span class = 'part5'>|</span>
+                    <span class = 'part6'>|</span>
+                </div>
+            </div>
+            <div>
+                <h1 class ='constructed-word'>Constructed Word</h1>
+                <h1 class = 'guesses-remaining'>Guesses Remaining</h1>
+            </div>
+
+            <div class = 'input-area'>
+                <input type ="text" class ='guess'></input>
+                <button class ='submit'>ENTER</button>
+            </div>
+
+        </main>
+        <script src = 'script.js'></script>
+    </body>
+</html>
